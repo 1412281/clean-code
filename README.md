@@ -1,10 +1,10 @@
 # clean-code-javascript
 
-## Table of Contents
-  1. [Introduction](#introduction)
+## Mục 
+  1. [Giới ](#introduction)
   2. [Variables](#variables)
   3. [Functions](#functions)
-  4. [Objects and Data Structures](#objects-and-data-structures)
+  4. [Objects and Data Structures](#objects-and-data-structures)
   5. [Classes](#classes)
   6. [Testing](#testing)
   7. [Concurrency](#concurrency)
@@ -12,19 +12,16 @@
   9. [Formatting](#formatting)
   10. [Comments](#comments)
 
-## Introduction
+## Giới thiệu
 ![Humorous image of software quality estimation as a count of how many expletives
 you shout when reading code](http://www.osnews.com/images/comics/wtfm.jpg)
 
-Software engineering principles, from Robert C. Martin's book
-[*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
-adapted for JavaScript. This is not a style guide. It's a guide to producing
-readable, reusable, and refactorable software in JavaScript.
+Nguyên tắc kỹ sư phần mềm, từ Rokert C. Martin's - tác giả của cuốn sách
 
-Not every principle herein has to be strictly followed, and even fewer will be
-universally agreed upon. These are guidelines and nothing more, but they are
-ones codified over many years of collective experience by the authors of
-*Clean Code*.
+[*Clean Code*](https://www.amazon.com/Clean-Code-Handbook-Software-Craftsmanship/dp/0132350882),
+port sang Javascript. Đây không phải là 1 bản hướng dẫn sử dụng. Nó đơn giản chỉ là 1 hướng dẫn để mã sản xuất có thể đọc được, kế thừa và tổ chức trong Javascript.
+
+Không cần tuân thủ mọi nguyên tắc ở đây nghiêm túc. Đây là những hướng dẫn, nhưng chúng tôi đã hệ thống hoá lại qua nhiều năm kinh nghiệm qua tác giả của cuốn sách *Clean Code*.
 
 Our craft of software engineering is just a bit over 50 years old, and we are
 still learning a lot. When software architecture is as old as architecture
